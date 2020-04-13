@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose")
 mongoose
     .connect(
-        "mongodb://localhost:27017/test", {
+        "mongodb+srv://imran:imranshaikh@mongodb1-1kxlr.mongodb.net/test", {
             useNewUrlParser: true,
             useUnifiedTopology: true
         }
